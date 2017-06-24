@@ -37,14 +37,27 @@
 	background-color: #f6f6f6;
 	padding-bottom: 100px;
 }
-#content > div {
+#content > section {
 	margin-right: 90px;
-	padding: 20px;
+	padding: 40px;
 	background-color: #fff;
+	border-radius: .8em;
 }
 h1{
 	font-weight: bold;
 }
-h4{
+section > h4{
 	padding-left: 20px;
 }
+hr {
+    height: 3px;
+    width: 60px;
+    background: #1e90ff;
+    position: relative;
+    border: 0;
+    margin: 20px 0 20px 0;
+}
+#tech{
+  margin-top: 30px;
+}
+
