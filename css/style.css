@@ -28,7 +28,7 @@
     transform: rotate(-90deg);
     transform-origin: 0 0;
     position: fixed;
-    top: 700px;
+    top: 640px;
     left: 0;
 }
 #content{
@@ -92,4 +92,8 @@ hr {
   #content{
     padding: 20px;
   }
+}
+#errors{
+  padding: 5px;
+  border-radius: .6em;
 }
