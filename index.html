@@ -4,6 +4,7 @@
  <!-- <link rel="icon" type="image/png" href="./images/favicon.ico"> -->
   <title>Code Hammers</title>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -24,7 +25,7 @@
 	    <div class="collapse navbar-collapse visible-md" id="myNavbar">
 	      <ul class="nav navbar-nav navbar-right">
 	        <li><a href="#about">ABOUT</a></li>
-	        <li><a href="#services">SERVICES</a></li>
+	        <li><a href="#product">PRODUCT</a></li>
 	       	<li><a href="#tech">TECHNOLOGY</a></li>
 	        <li><a href="#contact">CONTACT</a></li>
 	      </ul>
@@ -53,6 +54,8 @@
 	  		<h2>About us</h2>
 	  		<hr>
 	  		<h4>We are a team of innovative developers seeking to deliver the best experience for our client</h4>
+	
+
 	  	</section>		
 	  	<!-- About Section End -->
 
@@ -66,19 +69,19 @@
 				<div class="col-md-4 col-sm-6">
 					<div class="higlight">
 						
-						<h4>C# ASP.NET <img src="images/c.png" height="30" width="30" style="float:right"></h4>
-						<hr>
+						<h4>C# ASP.NET <img src="images/c.png" height="30" width="30" class="pull-right"></h4>
+	
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris cillum.</p>
 					</div>
 					<div class="higlight">
-						<h4 >Rails <img src="images/ruby.png" height="30" width="30" style="float:right"></h4>
+						<h4 >Rails <img src="images/ruby.png" height="30" width="30" class="pull-right"></h4>
 						<hr>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris cillum.</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6">
 					<div class="higlight">
-						<h4 >AngularJS <img src="images/angular.svg" height="30" width="30" style="float:right"></h4>
+						<h4 >AngularJS <img src="images/angular.svg" height="30" width="30" class="pull-right"></h4>
 						<hr>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris cillum.</p>
 					</div>
@@ -102,16 +105,18 @@
 			          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
 			        </div>
 			        <div class="col-sm-4 form-group">
-			          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+			          <input class="form-control" id="email" name="email" placeholder="Email" type="email"
+						data-error="Bruh, that email address is invalid" required>
 			        </div>
 			         <div class="col-sm-4 form-group">
 			          <input class="form-control" id="subject" name="subject" placeholder="Subject" type="textarea" required>
 			        </div>
 			      </div>
-			      <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea><br>
+			      <div class="help-block with-errors"></div>
+			      <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea><br>/path/to/file
 			      <div class="row">
 			        <div class="col-sm-12 form-group">
-			          <button class="btn btn-default pull-right" type="submit">Send</button>
+			          <button class="btn btn-primary pull-right" type="submit">Send</button>
 			        </div>
 			      </div>
 			    </div>
@@ -120,5 +125,15 @@
 		</section>
 
   	</div>
+
+  
+  	<footer style="background-color: #337ab7;padding: 10px;">
+  		<h4 style="text-align: center;color: #ccc;">CopyRight &copy; Code Hammers 2017 </h4>
+  	</footer>
+  	<script
+		src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous"></script>
+  	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
