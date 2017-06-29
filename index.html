@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <!-- <link rel="icon" type="image/png" href="./images/favicon.ico"> -->
+  <!-- <link rel="icon" type="image/png" href="./images/favicon.ico"> -->
   <title>Code Hammers</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- libaries/Frameworks Start -->
+   	<!-- jQuery -->
+  	<script
+		src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- libaries/Frameworks End -->
 </head>
 <body>	
 	<nav class="navbar navbar-default navbar-fixed-top">
-	  <div class="container visible-md visible-lg">
+	  <div class="container">
 	    <div class="navbar-header">
 	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>                        
 	      </button>
-	      <a class="navbar-brand glyphicon glyphicon-cloud"  href="#myPage"></a>
+	      <a class="navbar-brand glyphicon glyphicon-cloud"  href="#myPage"><h12>CodeHammers</h12></a>
 	    </div>
 	    <div class="collapse navbar-collapse visible-md" id="myNavbar">
 	      <ul class="nav navbar-nav navbar-right">
@@ -37,7 +44,8 @@
     	<p>We specialize in web Development</p>
     	<button class="btn btn-success">Build me A Website</button>
   	</div>
-  	<div class="help-tab">
+  	<!-- SideTabs Start -->
+  	<div class="help-tab visible-lg visible-md">
   		<a href="https://github.com/CodeHammers" target="_blank" > 
   			<button class="btn btn-primary">UpWork</button>
 		</a>
@@ -48,6 +56,9 @@
   			<button class="btn btn-primary">Github</button>
 		</a>
   	</div>
+  	<!-- SideTabs  End-->
+
+  	<!-- Content Start -->
   	<div id="content">
   		<!-- About Section Start -->
 	  	<section id="about">
@@ -59,6 +70,15 @@
 	  	</section>		
 	  	<!-- About Section End -->
 
+	  	<!-- WWDo Start -->
+  		<section id="wwd">
+	  		<h2>What We Do</h2>
+	  		<hr>
+	  		<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris cillum.</h4>
+	  	</section>	
+	  	<!-- WWDo End -->
+
+	  	<!-- Technology Section Start -->
 		<section id="tech" class="container-fluid">
 			<div class="row">
 				<div class="col-md-4 col-sm-12">
@@ -93,8 +113,9 @@
 				</div>
 			</div>
 		</section>
+	  	<!-- Technology Section End -->
 
-
+	  	<!-- Contact Section Start -->
 		<section id="contact">
 			<div class="container-fluid bg-grey">
 			  <h2 class="text-center" style="">CONTACT</h2>
@@ -106,7 +127,7 @@
 			        </div>
 			        <div class="col-sm-4 form-group">
 			          <input class="form-control" id="email" name="email" placeholder="Email" type="email"
-						data-error="Bruh, that email address is invalid" required>
+						data-error="email address is invalid" required>
 			        </div>
 			         <div class="col-sm-4 form-group">
 			          <input class="form-control" id="subject" name="subject" placeholder="Subject" type="textarea" required>
@@ -126,17 +147,20 @@
 				Missing Sections need to be filled	
 			</div>
 		</section>
+		<!-- Contact Section Start -->
 
   	</div>
+  	<!-- Content End -->
 
-  
+  	<!-- Footer Start -->  
   	<footer style="background-color: #337ab7;padding: 6px;">
   		<h6 style="text-align: center;color: #ccc;">CopyRight &copy; Code Hammers 2017 </h6>
   	</footer>
-  	<script
-		src="https://code.jquery.com/jquery-3.2.1.min.js"
-		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-		crossorigin="anonymous"></script>
+  	<!-- Footer End -->
+
+ 
+	<!-- Custom Script -->
   	<script type="text/javascript" src="js/script.js"></script>
+
 </body>
 </html>
