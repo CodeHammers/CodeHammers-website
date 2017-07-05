@@ -21,8 +21,11 @@
     color: #fff;
     padding: 100px 25px;
     text-align: center;
-    font-family: 'Shadows Into Light', cursive;
+   /* font-family: 'Shadows Into Light', cursive;*/
     margin-bottom: 0px;
+}
+p ,button{
+  font-family: none; 
 }
 .help-tab {
     transform: rotate(-90deg);
